@@ -2,7 +2,7 @@
  * Application
  */
 :root {
-  color: #002147;
+  color: #543729;
   font-size: 16px;
   line-height: 1.5; }
 
@@ -13,10 +13,14 @@ html {
   text-rendering: optimizeLegibility; }
 
 body {
+  background-color: #fcf4d7;
   margin: 0; }
 
 figure {
   align-items: center;
+  background-color: #163424;
+  background-position: center bottom;
+  background-size: cover;
   display: flex;
   flex: 1;
   justify-content: center;
@@ -35,15 +39,11 @@ main {
 
 article {
   align-items: center;
-  background-color: #008374;
-  color: #fff;
   display: flex;
   flex: 1;
   font-size: 1.25rem;
   justify-content: center;
   padding: 2rem; }
-  article a {
-    color: inherit; }
 
 h1,
 h2,
@@ -57,7 +57,7 @@ p {
   margin-top: 0; }
 
 a {
-  color: #005696; }
+  color: #543729; }
 
 img {
   display: inline-flex; }
